@@ -1,0 +1,8 @@
+syntax "dhcpconf" "dhcpd.conf$"
+icolor brightgreen "^[[:space:]]*[.A-Z]*[[:space:]]*[.A-Z]*|ad\-hoc|interim"
+color cyan "(authoritative|ddns\-update\-style|subnet|host|log\-facility)"
+color brightblue "(netmask|routers|option|(netbios|domain)-nam(e|e-servers)|(default|max)-lease-time)|range|broadcast\-address|subnet-mask"
+color brightyellow  start="\"" end="\""
+color yellow  "(hardware|ethernet|fixed\-address)"
+color brightblack "\:|\;|\{|\})""
+color green "#.*$"
