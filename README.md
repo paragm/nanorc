@@ -1,0 +1,2 @@
+# nanorc
+Custom nanorc files
